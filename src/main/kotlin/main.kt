@@ -1,10 +1,11 @@
-
 fun main() {
-    val likes = 121
+    val likes = 11
     var people = "людям"
-    if ((likes-1)%10 == 0) {
+    if (likes == 11) {
+        people = "людям"
+    } else if ((likes - 1) % 10 == 0) {
         people = "человеку"
     }
 
-    println ("Понравилось $likes $people")
+    println("Понравилось $likes $people")
 }
